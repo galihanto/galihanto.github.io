@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" id="home">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Galih Febrianto's Portfolio</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/mycss.css" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#home" class="navbar-brand page-scroll">Galih Febrianto</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about" class="page-scroll">About</a></li>
+            <li><a href="#portfolio" class="page-scroll">Portfolio</a></li>
+            <li><a href="#contact" class="page-scroll">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+    <!--Jumbotron-->
+    <div class="jumbotron text-center">
+      <img src="img/profil.png" class="img-circle" />
+      <h1>Galih Febrianto</h1>
+    </div>
+    <!--End Jumbotron-->
+
+    <!--About-->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="text-center">About Me</h2>
+            <hr />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="main-timeline4">
+              <div class="timeline">
+                  <a href="#" class="timeline-content">
+                      <span class="year">1995</span>
+                      <div class="inner-content">
+                          <h3 class="title">Born</h3>
+                          <p class="description">
+                            First time seeing the world in July 1995, but can't say "hello word".
+                          </p>
+                      </div>
+                  </a>
+              </div>
+              <div class="timeline">
+                  <a href="#" class="timeline-content">
+                      <span class="year">2017</span>
+                      <div class="inner-content">
+                          <h3 class="title">Bachelor degree</h3>
+                          <p class="description">
+                            The first time i got the title, and used in my last name. The degree i got in Gunadarma University majoring system information  
+                          </p>
+                      </div>
+                  </a>
+              </div>
+              <div class="timeline">
+                  <a href="#" class="timeline-content">
+                      <span class="year">2018</span>
+                      <div class="inner-content">
+                          <h3 class="title">Application Support Engineering</h3>
+                          <p class="description">
+                             The place is PT Aero Systems Indonesia, my first time i work, always happy in there. I'm still working here.
+                          </p>
+                      </div>
+                  </a>
+              </div>
+              <div class="timeline">
+                <a href="#" class="timeline-content">
+                    <span class="year">2018</span>
+                    <div class="inner-content">
+                        <h3 class="title">Project</h3>
+                        <p class="description">
+                           I got the first project in PT Aero Systems Indonesia. I am implementation a system to Balikpapan and Bali.
+                        </p>
+                    </div>
+                </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--END about-->
+
+    <!--Portfolio-->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h2>My Blog</h2>
+            <hr />
+          </div>
+        </div>
+        <div class="col-sm-12">
+          <a href="http://galih-febrianto1.blogspot.com/" class="thumbnail">
+            <img src="img/portfolio/1.png" alt="my blog" />
+          </a>
+        </div>
+      </div>
+    </section>
+    <!--END Portfolio-->
+
+    <!--Contact-->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h2>Contact</h2>
+            <hr />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2">
+            <form>
+              <div class="form-group">
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" class="form-control" placeholder="Masukkan Nama" />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" class="form-control" placeholder="Masukkan Email" />
+              </div>
+              <div class="form-group">
+                <label for="pesan">Pesan</label>
+                <textarea name="pesan" id="pesan" class="form-control" rows="10"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--END Contact-->
+    <!--Footer-->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <p class="text-center">
+              Copyright &copy; 2018<br />
+              <i>Design by </i><a href="http://galih-febrianto1.blogspot.com/" style="color: azure">Galih Febrianto</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--END Footer-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <script src="js/jsnya.js"></script>
+    <script src="js/jeasing.js"></script>
+  </body>
+</html>
